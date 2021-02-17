@@ -12,6 +12,7 @@ const allConstruct = (target, wordBank, memo = {}) => {
       result.push(...targetWays);
     }
   }
+
   memo[target] = result;
   return result;
 };
