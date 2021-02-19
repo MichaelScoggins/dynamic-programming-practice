@@ -5,6 +5,7 @@ const fib = (n) => {
     table[i + 1] += table[i];
     table[i + 2] += table[i];
   }
+
   return table[n];
 };
 
